@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDwex - Markdown to HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="user-select: none;">MDwex<span> by erdamn</span></h1>
+        <button id="download-btn">Download as HTML</button>
+    </header>
+
+    <main class="editor-container">
+        <section class="pane">
+            <div class="pane-header">Markdown</div>
+            <textarea id="editor" placeholder="..."></textarea>
+        </section>
+
+        <section class="pane">
+            <div class="pane-header">Önizleme</div>
+            <div id="preview" class="markdown-body"></div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
