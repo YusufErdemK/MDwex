@@ -5,7 +5,7 @@
 ![JS](https://img.shields.io/badge/javascript-npm-yellow)
 ![MDwex](https://badgen.net/badge/Download/MDwex/?color=orange&icon=&label)
 
-# MDwex  
+# MDwex
 
 A simple and efficient Markdown editor and converter with live preview and download functionality.
 
